@@ -1,0 +1,29 @@
+.organic-no-image-layout {
+    color: black !important;
+}
+
+.organic-no-image-layout:hover {
+    filter: brightness(50%);
+}
+
+.organic-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.organic-card-container {
+    text-overflow: ellipsis;
+    position: relative;
+    color: white;
+}
+
+.organic-caption {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+}
+
+.organic-wrapper {
+    padding: 2vw;
+}
