@@ -18,7 +18,7 @@ function startUp() {
 async function widget(params) {
   try {
     renderSkeletons(); // add loading ui
-    const data = (await fetchData(params)) || [];
+    const data = await fetchData(params) || [];
     parent.innerHTML = ""; // remove loading ui
     renderRecommendations(data);
   } catch (err) {
@@ -39,7 +39,6 @@ function renderRecommendations(data) {
   for (const key in groupedData) {
     wrapper.appendChild(recDict[key] && recDict[key](groupedData[key]));
   }
-  wrapper.appendChild(OrganicRec(data));
   parent.appendChild(wrapper);
 }
 
