@@ -1,0 +1,29 @@
+.card-container {
+    height: 300px;
+    background: linear-gradient(112.05deg, #FFFFFF 35.59%, #E1E1E1 100%);
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    box-shadow: 0 0 0 1px rgba(0,0,0,0.0578), 0px 2px 4px rgba(0, 0, 0, 0.04);;
+}
+
+.card-container:hover {
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.14) 0px 4px 24px;
+}
+
+.card-container:hover img {
+    filter: brightness(50%);
+}
+
+.sponsored-card-container {
+    color: rgb(43, 43, 43);
+}
+
+.organic-card-container {
+    position: relative;
+    color: white;
+}

@@ -1,0 +1,11 @@
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    /* Each column has a minimum width of 200px and expands to fill the available space */
+    grid-gap: 20px;
+    /* Adjust the gap between grid items as needed */
+}
+
+/* .skeleton-wrapper {
+    padding: 2vw;
+} */
