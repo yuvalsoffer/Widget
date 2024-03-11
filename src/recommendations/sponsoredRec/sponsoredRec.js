@@ -11,7 +11,7 @@ function SponsoredRec(data) {
   sponsoredWrapper.appendChild(sponsoredHeading);
 
   const grid = Grid();
-  data.forEach((card) => grid.appendChild(Card(card), "sponsored"));
+  data.forEach((card) => grid.appendChild(Card(card, "sponsored")));
   sponsoredWrapper.appendChild(grid);
 
   return sponsoredWrapper;

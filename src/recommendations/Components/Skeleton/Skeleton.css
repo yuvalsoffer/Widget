@@ -1,0 +1,17 @@
+.skeleton {
+    height: 300px;
+    border-radius: 8px;
+    box-shadow: 0 0 0 1px rgba(0,0,0,0.0578), 0px 2px 4px rgba(0, 0, 0, 0.04);
+    opacity: .7;
+    animation: skeleton-loading 1s linear infinite alternate;
+}
+
+ @keyframes skeleton-loading {
+    0% {
+        background-color: #FFFFFF ;
+    }
+
+    100% {
+        background-color: #E1E1E1;
+    }
+ }

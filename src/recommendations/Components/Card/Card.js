@@ -12,7 +12,7 @@ const cardTargetDict = {
   sponsored: "_blank",
 };
 
-function Card(data, type = "sponsored") {
+function Card(data, type) {
   const card = document.createElement("a");
   card.href = data.url;
   card.rel = "noopener noreferrer";
